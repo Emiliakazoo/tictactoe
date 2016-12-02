@@ -108,13 +108,15 @@ main {
 }
 .alert {
 	width:100%;
+	display:flex;
+	align-items:center;
 	background-color:pink;
 	opacity:.7;
 	text-align:center;
+	justify-content: center;
 	width:340px;
 	height:305px;
 	font-size:30px;
-	line-height:300px;
 	position:absolute;
 	left:0;
 	top:0;
